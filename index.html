@@ -222,10 +222,76 @@
     <!-- Registration Modal -->
     <!-- Registration form -->
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-4">
-        <!-- Newsletter signup -->
-        <p class="mb-0">&copy; 2026 Full Stack Conf</p>
+ <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h5 class="mb-3">About Full Stack Conf</h5>
+
+                    <p class="mb-0 text-white-50">
+                        Full Stack Conf brings the JavaScript community together for one
+                        incredible day in Portland, Oregon. Learn, share, and connect with
+                        developers from around the world.
+                    </p>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-3">Stay up to date</h5>
+
+                    <form>
+                        <div class="input-group">
+                            <label class="visually-hidden" for="newsletterEmail">Email</label>
+
+                            <input
+                                type="email"
+                                id="newsletterEmail"
+                                class="form-control"
+                                placeholder="Email"
+                                required>
+
+                            <button class="btn btn-warning" type="submit">
+                                Sign up
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <h5 class="mb-3">Community</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a class="link-light text-decoration-none" href="#home">Tracks</a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="link-light text-decoration-none dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Other Confs
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">CSS Conf</a></li>
+                                <li><a class="dropdown-item" href="#">Python Conf</a></li>
+                                <li><a class="dropdown-item" href="#">Ruby Conf</a></li>
+                                <li><a class="dropdown-item" href="#">Java Conf</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="border-secondary">
+
+            <p class="text-center text-white-50 mb-0">
+                &copy; 2026 Full Stack Conf
+            </p>
+        </div>
     </footer>
 
 </body>
